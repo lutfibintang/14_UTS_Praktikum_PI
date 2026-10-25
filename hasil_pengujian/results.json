@@ -1,0 +1,268 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "whoosh": "2.7.4"
+  },
+  "stats": {
+    "total": 49484,
+    "per_source": {
+      "etd-usk": 10000,
+      "etd-ugm": 10000,
+      "kompas": 10000,
+      "tempo": 10000,
+      "mojok": 9484
+    },
+    "skipped": 0,
+    "vocabulary": 282241,
+    "nonzero": 9090490,
+    "seconds": 287.78867356
+  },
+  "tests": [
+    {
+      "query": "pendidikan matematika",
+      "seconds": 0.4979126619999761,
+      "results": [
+        {
+          "rank": 1,
+          "doc_id": "tempo/data.csv:2590",
+          "source": "tempo",
+          "title": "Biaya Kuliah Fakultas Kedokteran UPI Jalur SNBP 2025 Tembus Rp 19 Juta",
+          "score": 0.6057825328153825,
+          "snippet": "TEMPO.CO,Jakarta-Salah satu perguruan tinggi negeri (PTN) yang banyak diincar mahasiswa di seleksi nasional berdasarkan prestasi (SNBP) 2025 adalah Universitas Pendidikan Indonesia atauUPI. Perguruan tinggi yang berlokasi di Bandung ini men"
+        },
+        {
+          "rank": 2,
+          "doc_id": "tempo/data.csv:5088",
+          "source": "tempo",
+          "title": "Berapa Biaya Kuliah Universitas Negeri Semarang Jalur SNBP 2025 untuk Program D3-S1",
+          "score": 0.5872411389931489,
+          "snippet": "TEMPO.CO,Jakarta- Universitas Negeri Semarang (Unnes) telah mengumumkan rincian biaya pendidikan bagi mahasiswa baru jenjang Diploma (D3) dan Sarjana (S1) yang diterima melalui jalur Seleksi Nasional Berdasarkan Prestasi (SNBP) untuk tahun "
+        },
+        {
+          "rank": 3,
+          "doc_id": "tempo/data.csv:282",
+          "source": "tempo",
+          "title": "Kemendikdasmen Rilis Rapor Pendidikan 2025, Lebih Lengkap dan Berdampak",
+          "score": 0.5105274702426309,
+          "snippet": "INFO NASIONAL - Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) merilisRapor Pendidikan2025 dalam Taklimat Media di Jakarta, Selasa, 18 Maret 2025. Menteri Pendidikan Dasar dan Menengah, Abdul Mu’ti, menyatakan bahwa laporan ini "
+        },
+        {
+          "rank": 4,
+          "doc_id": "etd-ugm/data.csv:8052",
+          "source": "etd-ugm",
+          "title": "Konsep pendidikan sekolah alam Lendo Novo dalam perspektif filsafat pendidikan John Dewey",
+          "score": 0.47050092685924827,
+          "snippet": "Penelitian konsep pendidikan sekolah alam Lendo Novo dalam perspektif filsafat pendidikan John Dewey dilatarbelakangi oleh sistem pendidikan formal di Indonesia yang dianggap belum mampu memenuhi kebutuhan pendidikan anak. Konsep pendidikan"
+        },
+        {
+          "rank": 5,
+          "doc_id": "kompas/data.csv:650",
+          "source": "kompas",
+          "title": "Pedoman Hari Pendidikan Nasional 2025: Tema dan Logo Hardiknas 2 Mei",
+          "score": 0.44982345106024185,
+          "snippet": "Kompas.com - Peringatan Hari Pendidikan Nasional (Hardiknas) menjadi momentum penting bagi seluruh instan pendidikan di Indonesia. Setiap tanggal 2 Mei, bangsa ini mengenang jasa Ki Hadjar Dewantara, Bapak Pendidikan Nasional, sekaligus mer"
+        }
+      ]
+    },
+    {
+      "query": "gempa Aceh",
+      "seconds": 0.40075944600005187,
+      "results": [
+        {
+          "rank": 1,
+          "doc_id": "tempo/data.csv:5815",
+          "source": "tempo",
+          "title": "Getaran Gempa Sertai Momen Lebaran di Banda Aceh dan Aceh Besar hingga Pagi Ini",
+          "score": 0.6700783350656683,
+          "snippet": "TEMPO.CO,Jakarta- Badan Meteorologi Klimatologi dan Geosifika mencatat sejumlahgempayang bisa dirasakan di Kota Banda Aceh dan KabupatenAceh Besarsejak Minggu, 30 Maret 2025, sampai dengan hari ini, Selasa 1 April 2025. Gempa terkini terjad"
+        },
+        {
+          "rank": 2,
+          "doc_id": "tempo/data.csv:6876",
+          "source": "tempo",
+          "title": "BMKG: Gempa Magnitudo 5,9 Guncang Aceh Barat Daya",
+          "score": 0.6240377207533827,
+          "snippet": "TEMPO.CO,Jakarta-Badan Meteorologi, Klimatologi, dan Geofisika (BMKG)mencatat terjadinyagempa tektonikdengan magnitudo 5,9 hari ini, Ahad, 11 Mei 2025, di barat daya Blang Pidie,Kabupaten Aceh Barat Daya, Provinsi Aceh. Direktur Gempa Bumi "
+        },
+        {
+          "rank": 3,
+          "doc_id": "etd-usk/data.csv:5224",
+          "source": "etd-usk",
+          "title": "INVESTIGASI ZONA PATAHAN MENGGUNAKAN RELOKASI DAN MEKANISME FOKAL GEMPA",
+          "score": 0.5637345210021216,
+          "snippet": "Aceh Besar diapit oleh dua segmen yaitu Segmen Seulimum dan Segmen Aceh yang secara historis telah menyebabkan gempa signifikan seperti pada 2 April 1964 dengan magnitudo 6,5 pada Segmen Seulimum. Meskipun Segmen Aceh belum tercatat mengala"
+        },
+        {
+          "rank": 4,
+          "doc_id": "etd-usk/data.csv:700",
+          "source": "etd-usk",
+          "title": "INVESTIGASI POLA SESAR DI ACEH BAGIAN BARAT SELATAN BERDASARKAN DISTRIBUSI GEMPA DAN MODEL ELEVASI BUMI",
+          "score": 0.4834937784152281,
+          "snippet": "Wilayah Aceh Bagian Barat Selatan memiliki aktivitas seismik yang tinggi dipengaruhi oleh beberapa segmen Patahan Sumatera, meliputi Segmen Tripa, dan Segmen Batee sehingga pemahaman yang lebih baik mengenai pola sesar sangat penting untuk "
+        },
+        {
+          "rank": 5,
+          "doc_id": "etd-usk/data.csv:3945",
+          "source": "etd-usk",
+          "title": "TANGGUNG JAWAB PEMERINTAH ACEH DALAM PELAKSANAAN REPARASI KORBAN PELANGGARAN HAK ASASI MANUSIA",
+          "score": 0.4826816965141332,
+          "snippet": "Sebagai daerah transisi konflik senjata, Pemerintah Aceh memiliki peran dan dan tanggung jawab untuk penyelesaian kasus dan pemenuhan hak korban pelanggaran hak asasi manusia di Aceh. Pada tahun 2013 pemerintah Aceh telah melahirkan Qanun A"
+        }
+      ]
+    },
+    {
+      "query": "kecerdasan buatan",
+      "seconds": 0.27211876899991694,
+      "results": [
+        {
+          "rank": 1,
+          "doc_id": "etd-ugm/data.csv:1466",
+          "source": "etd-ugm",
+          "title": "INTERNSHIP REPORT: PT KPMG SIDDHARTA ADVISORY “HOW ARTIFICIAL INTELLIGENCE CAN AID IN VALUATION SERVICES”",
+          "score": 0.5687111245916712,
+          "snippet": "Tesis ini ditulis sebagai laporan magang di PT KPMG\r\nSiddharta Advisory, cabang Indonesia dari perusahaan akuntansi global,\r\nkhususnya tim penilaian dan pemodelan keuangan. Tesis ini mengeksplorasi peran\r\nmasa depan kecerdasan buatan dalam "
+        },
+        {
+          "rank": 2,
+          "doc_id": "etd-ugm/data.csv:8748",
+          "source": "etd-ugm",
+          "title": "THE ARTIFICIAL INTELLIGENCE PATENT TOWARDS ITS INVENTIONS AND THE REGULATION FOR THE USE OF ARTIFICIAL INTELLIGENCE IN INDONESIA'S BUSINESS FIELD (COMPARATIVE STUDY OF INDONESIA, UNITED STATES AND EUROPEAN UNION)",
+          "score": 0.5649796412371588,
+          "snippet": "Pesatnya perkembangan teknologi, khususnya perangkat lunak dan perangkat keras menjadikan penggunaan kecerdasan buatan sebagai hal yang umum. Robot dengan kemampuan kecerdasan buatan tidak lagi dianggap sebagai alat untuk menunjang kehidupa"
+        },
+        {
+          "rank": 3,
+          "doc_id": "mojok/data.csv:6787",
+          "source": "mojok",
+          "title": "Kecerdasan Buatan Bisa Nggak Cerdas Lagi kalau Gantikan PNS dan Hadapi Birokrasi Fotokopi",
+          "score": 0.43895911265968257,
+          "snippet": "MOJOK.CO – Kecerdasan Buatan (AI), konon katanya, akan menggantikan PNS. Menghadapi ribetnya birokrasi fotokopi, bisa jadi kecerdasan buatan bakal menyerah. Diskursus teknologi Artificial Intelligence atau kecerdasan buatan (AI) sebagai ((("
+        },
+        {
+          "rank": 4,
+          "doc_id": "etd-ugm/data.csv:3529",
+          "source": "etd-ugm",
+          "title": "Korelasi Antara Kreativitas Pengalaman Seni Komunitas SAGA dengan Kecerdasan Majemuk",
+          "score": 0.4139469470433775,
+          "snippet": "Seni perlu dipahami tidak hanya sebagai objek estetika melainkan juga sebagai fungsi kreativitas yang diwujudkan dalam pengalaman artistik. Pada proses penciptaan, pelaku seni memanfaatkan multi interaksi dari berbagai potensi manusia berup"
+        },
+        {
+          "rank": 5,
+          "doc_id": "etd-usk/data.csv:7355",
+          "source": "etd-usk",
+          "title": "PERBANDINGAN HASIL TANGKAPAN UMPAN PANCING GURITA SEMI BUATAN DAN BUATAN DI KECAMATAN SALANG KABUPATEN SIMEULUE",
+          "score": 0.35311227577322424,
+          "snippet": "Penelitian ini dilaksanakan pada bulan Mei 2022, berlokasi di kecamatan salang kabupaten simeulue. Penelitian ini bertujuan untuk mengetahui komposisi hasil tangkapan gurita dengan menggunakan alat tangkap pancing gurita umpan semi buatan d"
+        }
+      ]
+    },
+    {
+      "query": "korupsi pemerintah",
+      "seconds": 0.6385767100000521,
+      "results": [
+        {
+          "rank": 1,
+          "doc_id": "etd-ugm/data.csv:7235",
+          "source": "etd-ugm",
+          "title": "HAMBATAN IMPLEMENTASI BELANJA DAN KORUPSI BIROKRASI: STUDI KASUS PADA PEMERINTAH DAERAH WILAYAH D.I. YOGYAKARTA",
+          "score": 0.5128225940683707,
+          "snippet": "Studi ini mengeksplorasi dan menganalisis bagaimana dan mengapa aparatur pemerintah daerah (pemda) terlibat dalam korupsi yang menghambat belanja pemerintah daerah. Kajian ini berfokus pada belanja pemerintah daerah yang meliputi belanja ba"
+        },
+        {
+          "rank": 2,
+          "doc_id": "kompas/data.csv:7769",
+          "source": "kompas",
+          "title": "Perang Memberantas Korupsi pada Masa Orde Lama",
+          "score": 0.4740546785531864,
+          "snippet": "KOMPAS.com - Tidak lama setelah merdeka, Indonesia ternyata sudah dihadapkan dengan permasalahan korupsi. Korupsi terjadi di Indonesia sejak Orde Lama di bawah pemerintahan Presiden Soekarno. Sejarah korupsi di era Orde Lama mencapai puncak"
+        },
+        {
+          "rank": 3,
+          "doc_id": "etd-ugm/data.csv:554",
+          "source": "etd-ugm",
+          "title": "ANALISIS PENGARUH KARAKTERISTIK PEMERINTAH DAERAH DAN KEPALA DAERAH TERHADAP KEBERHASILAN PENERAPAN PROGRAM PENCEGAHAN KORUPSI DI LINGKUNGAN PEMERINTAH DAERAH SELURUH INDONESIA",
+          "score": 0.44933458134838195,
+          "snippet": "Penelitian ini\r\nbertujuan untuk menganalisis pengaruh karakteristik Pemerintah Daerah yang\r\nmeliputi ukuran, jenis dan lokasi serta karakteristik Kepala Daerah yang\r\nmeliputi gender, usia dan tingkat pendidikan terhadap keberhasilan penerap"
+        },
+        {
+          "rank": 4,
+          "doc_id": "etd-usk/data.csv:123",
+          "source": "etd-usk",
+          "title": "PENGARUH KOMPETENSI SUMBER DAYA MANUSIA DAN SISTEM PENGENDALIAN INTERNAL PEMERINTAH TERHADAP KUALITAS LAPORAN KEUANGAN PEMERINTAH DAERAH DENGAN TEKNOLOGI INFORMASI SEBAGAI VARIABEL MODERASI PADA PEMERINTAH ACEH",
+          "score": 0.38892223413129867,
+          "snippet": "Penelitian ini bertujuan untuk menguji pengaruh kompetensi sumber daya manusia dan sistem pengendalian internal pemerintah terhadap kualitas laporan keuangan pemerintah daerah dengan teknologi informasi sebagai variabel moderasi pada pemeri"
+        },
+        {
+          "rank": 5,
+          "doc_id": "etd-ugm/data.csv:7277",
+          "source": "etd-ugm",
+          "title": "Analisis Hubungan antara Kualitas Sistem Pemerintahan Berbasis Elektronik dan Efisiensi Pemerintah Daerah",
+          "score": 0.3813850356982369,
+          "snippet": "Analisis\r\nHubungan antara Sistem Pemerintahan Berbasis Elektronik dan Efisiensi\r\nPemerintah DaerahBorn\r\nInflamone Putraborn.inflamone.putra@mail.ugm.ac.idDepartemen\r\nAkuntansi,Fakultas\r\nEkonomika dan Bisnis,Universitas\r\nGadjah MadaIntisariP"
+        }
+      ]
+    },
+    {
+      "query": "lagu anime",
+      "seconds": 0.2643605959999604,
+      "results": [
+        {
+          "rank": 1,
+          "doc_id": "mojok/data.csv:2",
+          "source": "mojok",
+          "title": "7 Lagu Anime yang Pasti Bikin Kamu Makin Semangat",
+          "score": 0.6882472016116853,
+          "snippet": "Lagu anime punya magis tersendiri. Ia tidak dibuat khusus untuk anime tersebut, kadang malah diciptakan atau rilis jauh sebelum anime tersebut rilis. Tapi, dia tidak bisa dipisahkan dari anime. Ia seakan menyatu, dan menceritakan anime ters"
+        },
+        {
+          "rank": 2,
+          "doc_id": "mojok/data.csv:987",
+          "source": "mojok",
+          "title": "5 Rekomendasi Lagu The Rain yang Underrated",
+          "score": 0.5557821417139489,
+          "snippet": "Ngaku deh, kalau diminta menyebutkan lagu The Rain, pasti kalian akan menyebutkan “Terlatih Patah Hati” dan “Gagal Bersembunyi” kan? Hal itu wajar. Kedua lagu tersebut memang lagu yang ikonik dan unik. Ikonik, karena bisa dibilang jadi lagu"
+        },
+        {
+          "rank": 3,
+          "doc_id": "mojok/data.csv:1720",
+          "source": "mojok",
+          "title": "7 Lagu Luar Negeri yang Punya Vibes Mirip Lagu Indonesia",
+          "score": 0.5369742097617408,
+          "snippet": "Tak ada yang baru di bawah matahari. Ungkapan ini seolah jadi salah satu prinsip yang cukup penting dalam dunia pengkaryaan, entah musik, sastra, atau film. Maka tak heran jika ada sebuah karya yang mirip dengan karya-karya sebelumnya, dan "
+        },
+        {
+          "rank": 4,
+          "doc_id": "mojok/data.csv:5672",
+          "source": "mojok",
+          "title": "6 Lagu SNSD yang Underrated, Wajib Masuk Playlist-mu",
+          "score": 0.5247540791495954,
+          "snippet": "Sudah menjadi rahasia umum jika SNSD atau Girls Generation adalah salah satu legenda industri K-Pop yang membuka jalan bagi musisi K-Pop lainnya dikenal dunia. Selain visual yang menawan dan natural, karya-karya SNSD mampu menembus pasar in"
+        },
+        {
+          "rank": 5,
+          "doc_id": "mojok/data.csv:2238",
+          "source": "mojok",
+          "title": "Rekomendasi Lagu-lagu Musisi Lampung yang Patut Didengar Selain Kangen Band",
+          "score": 0.5241564368414433,
+          "snippet": "Berbicara soal musisi Lampung, Kangen Band adalah satu nama yang pasti terpikirkan di benak kebanyakan orang. Wajar saja, sebab lagu-lagu dari grup band yang digawangi oleh Andika Mahesa sebagai vokalis itu sudah sering diputar di televisi "
+        }
+      ]
+    },
+    {
+      "query": "",
+      "seconds": 2.517799998713599e-05,
+      "results": []
+    },
+    {
+      "query": "dan yang di",
+      "seconds": 1.2920000017402344e-05,
+      "results": []
+    },
+    {
+      "query": "zzzxxyyqq",
+      "seconds": 0.00010570000006282498,
+      "results": []
+    }
+  ]
+}
